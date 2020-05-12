@@ -6,18 +6,91 @@
  * Made By MaterializeCSS.com
  */
 
+ /*
+body{
+  background-image:url('/images/para1.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  height:100%;
+}
+*/
+
+header{
+background-image:url('https://jooinn.com/images/flower-background-52.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+height:100vh;
+background-position:center center;
+background-attachment: fixed;
+}
+ 
+footer{
+  background:#000;
+  color:#fff;
+  height:300px;
+}
+
+
+section.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.parallax-bg{
+  background-image:url('/images/nature6.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  height:450px;
+}
+
+.mapInfo{
+  margin-bottom:0px !important;
+}
+
+.container.header-slogan {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+  max-width:500px;
+}
+
+h1.welcomenote {
+  font-size: 2.5rem !important;
+  color: #000;
+  text-shadow: 2px 2px 2px #fff;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  top: 35%;
+}
+
+.col.s12.l4.style-slogan {
+  border-bottom-style: double;
+  border-top-style: double;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
+ text-shadow:3px 3px 3px #fff;
+ font-weight:bold;
 }
 
 p {
   line-height: 2rem;
 }
 
+/*
 .sidenav-trigger {
   color: #26a69a;
 }
+*/
 
 .parallax-container {
   min-height: 380px;
@@ -43,8 +116,18 @@ p {
   #index-banner .section {
     top: 0;
   }
+  header{
+    height:50vh !important;
+ 
+    }
+
+    h1.welcomenote {
+      top: 20%;
+    }
+    
 }
 
+/*
 .icon-block {
   padding: 0 15px;
 }
@@ -52,6 +135,7 @@ p {
   font-size: inherit;
 }
 
+*/
 footer.page-footer {
   margin: 0;
 }
